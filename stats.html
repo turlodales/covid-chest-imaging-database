@@ -5,10 +5,11 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Search &mdash; National COVID-19 Chest Image Database  documentation</title>
+  <title>Training data statistics &mdash; National COVID-19 Chest Image Database  documentation</title>
   
 
   
@@ -27,7 +28,6 @@
         <script src="_static/underscore.js"></script>
         <script src="_static/doctools.js"></script>
         <script src="_static/language_data.js"></script>
-        <script src="_static/searchtools.js"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
@@ -39,7 +39,8 @@
   <link rel="stylesheet" href="_static/css/nhsx.css" type="text/css" />
   <link rel="stylesheet" href="_static/css/theme_overrides.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="#" /> 
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Links to other datasets" href="other_datasets.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -69,7 +70,7 @@
 
           
 <div role="search">
-  <form id="rtd-search-form" class="wy-form" action="#" method="get">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
@@ -92,12 +93,12 @@
 <li class="toctree-l1"><a class="reference internal" href="resources.html">Resources for data users</a></li>
 </ul>
 <p><span class="caption-text">Other Information</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="NCCID_Collaborative.html">NCCID Collaborative</a></li>
 <li class="toctree-l1"><a class="reference internal" href="AI_Performance_Assessment.html">Performance Assessment Call</a></li>
 <li class="toctree-l1"><a class="reference internal" href="project_summaries.html">NCCID project summaries</a></li>
 <li class="toctree-l1"><a class="reference internal" href="other_datasets.html">Links to other datasets</a></li>
-<li class="toctree-l1"><a class="reference internal" href="stats.html">Training data statistics</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Training data statistics</a></li>
 </ul>
 
             
@@ -143,12 +144,14 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Search</li>
+      <li>Training data statistics</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
+            <a href="_sources/stats.rst.txt" rel="nofollow"> View page source</a>
+          
         
       </li>
     
@@ -160,24 +163,103 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <noscript>
-  <div id="fallback" class="admonition warning">
-    <p class="last">
-      Please activate JavaScript to enable the search
-      functionality.
-    </p>
-  </div>
-  </noscript>
+  <section id="training-data-statistics">
+<span id="stats"></span><h1>Training data statistics<a class="headerlink" href="#training-data-statistics" title="Permalink to this headline">¶</a></h1>
+<p>Below you can find high level statistics of the data available in the training set of the database:</p>
+<table class="colwidths-given right-align-right-col docutils align-center">
+<colgroup>
+<col style="width: 80%" />
+<col style="width: 20%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><strong>Total number of patients with images</strong></p></td>
+<td><p><strong>9,118</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>Positive patients with images</p></td>
+<td><p>4,328</p></td>
+</tr>
+<tr class="row-odd"><td><p>Negative patients with images</p></td>
+<td><p>4,790</p></td>
+</tr>
+<tr class="row-even"><td><p>New patients added in the last 30 days</p></td>
+<td><p>0</p></td>
+</tr>
+</tbody>
+</table>
+<table class="colwidths-given right-align-right-col docutils align-center">
+<colgroup>
+<col style="width: 80%" />
+<col style="width: 20%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><strong>Total number of image studies</strong></p></td>
+<td><p><strong>28,772</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>X-ray image studies</p></td>
+<td><p>24,590</p></td>
+</tr>
+<tr class="row-odd"><td><p>CT image studies</p></td>
+<td><p>4,162</p></td>
+</tr>
+<tr class="row-even"><td><p>MRI image studies</p></td>
+<td><p>20</p></td>
+</tr>
+</tbody>
+</table>
+<table class="colwidths-given right-align-right-col docutils align-center">
+<colgroup>
+<col style="width: 80%" />
+<col style="width: 20%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><strong>Total image, image metadata, and clinical data storage</strong></p></td>
+<td><p><strong>931GB</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>CT image storage</p></td>
+<td><p>690GB</p></td>
+</tr>
+<tr class="row-odd"><td><p>X-ray image storage</p></td>
+<td><p>214GB</p></td>
+</tr>
+<tr class="row-even"><td><p>MRI image storage</p></td>
+<td><p>5GB</p></td>
+</tr>
+<tr class="row-odd"><td><p>Clinical data and image metadata export</p></td>
+<td><p>23GB</p></td>
+</tr>
+</tbody>
+</table>
+<table class="colwidths-given right-align-right-col docutils align-center">
+<colgroup>
+<col style="width: 80%" />
+<col style="width: 20%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><strong>Submitting centres (e.g. NHS trusts)</strong></p></td>
+<td><p><strong>22</strong></p></td>
+</tr>
+</tbody>
+</table>
+<p><em>This information was last updated on 24 May 2021.</em></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Please note, that the above table contains information on the <strong>training data</strong> that is shared with data access users.
+The NCCID initiative reserves a large percentage of the data as unpublished in order to support testing and independent validation of AI models.</p>
+</div>
+</section>
 
-  
-  <div id="search-results">
-  
-  </div>
 
            </div>
            
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="other_datasets.html" class="btn btn-neutral float-left" title="Links to other datasets" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>
@@ -212,14 +294,7 @@ The source code to this site is available on <a href="https://github.com/nhsx/co
   
   
     
-  
-  <script type="text/javascript">
-    jQuery(function() { Search.loadIndex("searchindex.js"); });
-  </script>
-  
-  <script type="text/javascript" id="searchindexloader"></script>
    
-
 
 </body>
 </html>
